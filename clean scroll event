@@ -1,0 +1,9 @@
+useEffect(() => {
+    window.addEventListener("scroll", () => {
+      // do something
+    });
+    return () => {
+    // cleaning remove event listener
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
