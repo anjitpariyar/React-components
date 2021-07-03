@@ -14,3 +14,16 @@ const SamplePrevArrow = (props) => {
 
 
 export default SamplePrevArrow;
+
+//implement
+const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    arrows: true,
+    swipeToSlide: true,
+    nextArrow: <Next />,
+    prevArrow: <Prev />,
+  };
