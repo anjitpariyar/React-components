@@ -1,0 +1,9 @@
+<style
+        dangerouslySetInnerHTML={{
+          __html: `
+  @media (max-width: 600px) {
+    header, header + div { display:none }
+  }
+`,
+        }}
+      ></style>
