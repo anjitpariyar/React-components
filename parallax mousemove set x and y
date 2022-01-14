@@ -1,0 +1,14 @@
+const [client, setClient] = useState({
+    x: 0,
+    y: 0,
+  });
+  const parallax = (e) => {
+    const x = e.pageX;
+    const y = e.pageY;
+    setClient({ ...client, x: x, y: y });
+  };
+  
+  
+   <BannerSection onMouseMove={(e) => parallax(e)} />
+  
+  
